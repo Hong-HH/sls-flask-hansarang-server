@@ -219,7 +219,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/sls-flask-hansarang-server/dev/1652081712546-2022-05-09T07:35:12.546Z/sls-flask-hansarang-server.zip"
+                "S3Key": "serverless/sls-flask-hansarang-server/dev/1652343230802-2022-05-12T08:13:50.802Z/sls-flask-hansarang-server.zip"
               },
               "Handler": "s_api.handler",
               "Runtime": "python3.8",
@@ -237,14 +237,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersioneuo5F3yEPndA0U7iK0kJb5EzkmBvTkJT3w8PPchuLc": {
+          "ApiLambdaVersionyc6l7Wy368xOmaVBWSs1fdENMv0JCVC4EwdPrDViOE": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "Ek9cyN2QkhFzgZ0kIrOcMoDIKgfxzhIO5F8DyOn1e9M="
+              "CodeSha256": "T4Yav3J3Zr24VUnnvfe9j2HS/ePmnXoJXqYLVP+8kro="
             }
           },
           "ApiGatewayRestApi": {
@@ -369,7 +369,7 @@
               "ApiLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1652081170893": {
+          "ApiGatewayDeployment1652342566367": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -528,7 +528,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/sls-flask-hansarang-server/dev/1652081712546-2022-05-09T07:35:12.546Z/custom-resources.zip"
+                "S3Key": "serverless/sls-flask-hansarang-server/dev/1652343230802-2022-05-12T08:13:50.802Z/custom-resources.zip"
               },
               "FunctionName": "sls-flask-hansarang-server-dev-custom-resource-apigw-cw-role",
               "Handler": "api-gateway-cloud-watch-role/handler.handler",
@@ -590,7 +590,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersioneuo5F3yEPndA0U7iK0kJb5EzkmBvTkJT3w8PPchuLc"
+              "Ref": "ApiLambdaVersionyc6l7Wy368xOmaVBWSs1fdENMv0JCVC4EwdPrDViOE"
             },
             "Export": {
               "Name": "sls-sls-flask-hansarang-server-dev-ApiLambdaFunctionQualifiedArn"
@@ -748,7 +748,7 @@
         "timeout": 6,
         "runtime": "python3.8",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersioneuo5F3yEPndA0U7iK0kJb5EzkmBvTkJT3w8PPchuLc"
+        "versionLogicalId": "ApiLambdaVersionyc6l7Wy368xOmaVBWSs1fdENMv0JCVC4EwdPrDViOE"
       }
     },
     "configValidationMode": "warn",
@@ -781,7 +781,7 @@
     "artifact": "C:\\Users\\hhh\\serverless\\sls-flask-hansarang-server\\.serverless\\sls-flask-hansarang-server.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/sls-flask-hansarang-server/dev/1652081712546-2022-05-09T07:35:12.546Z",
+    "artifactDirectoryName": "serverless/sls-flask-hansarang-server/dev/1652343230802-2022-05-12T08:13:50.802Z",
     "artifact": "sls-flask-hansarang-server.zip"
   }
 }
